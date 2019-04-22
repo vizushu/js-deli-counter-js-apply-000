@@ -9,9 +9,9 @@ function nowServing(line){
   if (line === 0){
     return 'There is nobody waiting to be served!'
   }else{
-    var x = line [0];
+    var name = line [0];
     line.slice(0, 1);
-    return "Currently serving " + x + ".";
+    return "Currently serving " + name + ".";
   }
 }
 function currentLine(x){
